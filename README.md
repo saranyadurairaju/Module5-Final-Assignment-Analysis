@@ -83,49 +83,65 @@ We are using .resample() function to sum up the weekly fare amount of each city 
  
 ![image](https://user-images.githubusercontent.com/85472349/126057711-ceb2e7b3-bdfe-4740-b8a7-1f29c55757c1.png)
 
+## Challenges
+
+Comparing the right data and creating a perfect chart matters a lot when we are doing a Analysis with Matplotlib. With all those trial and checking the data properly, made us create a perfect result for the presentation.
 
 ## Results
 
-Below is the full Pandas code to determine the Pyber Analysis. 
+Below is the full Pandas Matplotlib code to determine the Pyber Analysis. 
 
-![Pyber_Challenge](.ipynb)
+![Pyber_Challenge](https://github.com/saranyadurairaju/Module5-Final-Assignment-Analysis/blob/main/PyBer_Challenge.ipynb)
 
 Here are the summary data and line plot for each city type
 
 #### The Summary Data
 
-
-
-![image]( .png)
-
+![Summary_Data](https://github.com/saranyadurairaju/Module5-Final-Assignment-Analysis/blob/main/Summary_df.png)
 
 #### The multi line chart
 
-
-![image](https://user-images.githubusercontent.com/85472349/125233872-171a1a80-e2a5-11eb-823c-7660af7729fd.png)
+![Multi_line_chart](https://github.com/saranyadurairaju/Module5-Final-Assignment-Analysis/blob/main/analysis/PyBer_fare_summary.png)
 
 
 #### Difference in ride-sharing data amoung cities
 
-* There is a very minimal change in Passing Percentages in the district summary report.
+Below are the conclusion or points we can make out of our two results:
 
-* Same way in the School Summary report, the values are impacted little bit.
+* The total rides and drivers counts are always high in Urban, low in Rural and moderate in Suburban.
 
-* Math and Reading scores by Grade is replaced with NaN for Thomas High School.
+* As the total fares are proportionate to the ride, driver counts, its high in Urban, low in Rural and moderate in Suburban.
 
-* After the changes in Data, there is no impact in Top Performing schools and Score Values. 
+* If we consider only Rural area, the Average fare per ride and Average fare per Driver is high as the total ride and drivers are less. 
 
+* But in Urban area, the Average fare per ride and Average fare per Driver is low as the total ride and drivers are high. 
+
+* As expected its moderate in Suburban and proportionate to the counts. 
+
+* But Average Fare per ride in Rural(high) and Average Fare per Driver in Urban(low) is not good for the business. 
+
+* Either the rider or the driver will struggle in those cases. So, using our Analysis we need to find some solution for that. 
 
 ## Summary
 
-* There is a very minimal change in Passing Percentages in the district summary report.
+Below are the business suggestion for Pyber to improve the access & affordability:
 
-* Same way in the School Summary report, the values are impacted little bit.
+**Since the driver counts are very high in Urban, we have to increase the total rides with the following strategies and distribute the drivers properly among all areas.**
 
-* Math and Reading scores by Grade is replaced with NaN for Thomas High School.
+	1.Reduce Driver Downtime 
+	2.Allow scheduled pick-ups 
+	3.Create Loyalty Programs 
+	4.Customize the Experience
+	5.Own Local Event Recommendations
+	
+**Also the same way in the Rural area, we have to increase the total rides and the drivers counts are fine considering the size of the area.**
+ 
+	1.Inform rural residents and potential riders about the ride services 
+	2.Tie up with local partnerships to increase awareness
+	3.Rebrand already-existing transit/transportation services 
+	4.Attract potential riders with offers and special programs
+	5.Hire contract drivers
 
-* After the changes in Data, there is no impact in Top Performing schools and Score Values. 
+* So, if we follow the above methods, the total fare for the ride will be optimal for the riders also drivers will get enough money for their work.  
 
-* But we need to find the right number of Students during every Value calculation is important. 
-
-_Maria and her team can provide a nice and perfect **City School Analysis Report** with Clean Data to the School Board. Hurry!!!_
+_We have presented **Pyber ride sharing Analysis Report** with a perfectly clear data, chart and suggestions for business, which indeed satisfied the CEO. Happy riding !!!_
